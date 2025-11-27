@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman</title>
+    <link rel="stylesheet" href="css/styles.css">    
+    <script src="js/game.js" defer></script>
+
+</head>
+<body>
+    <!-- Menu Screen -->
+    <div id="menu-screen" class="screen active">
+        <div class="menu-container">
+            <div class="menu-title">
+                <h1>🎯 Hangman Game</h1>
+                <p class="subtitle">Choose Your Category</p>
+                <p class="author">By Ilyssa Tanaka - A01426413</p>
+            </div>
+
+            <div class="category-grid">
+                <button class="category-card animals" data-category="animals">
+                    <div class="category-icon">🦁</div>
+                    <h3>Animals</h3>
+                    <p>10 words</p>
+                </button>
+
+                <button class="category-card videogames" data-category="videogames">
+                    <div class="category-icon">🎮</div>
+                    <h3>Video Games</h3>
+                    <p>10 words</p>
+                </button>
+
+                <button class="category-card javascript" data-category="javascript">
+                    <div class="category-icon">⚡</div>
+                    <h3>JavaScript</h3>
+                    <p>10 words</p>
+                </button>
+
+                <button class="category-card html" data-category="html">
+                    <div class="category-icon">🌐</div>
+                    <h3>HTML</h3>
+                    <p>10 words</p>
+                </button>
+
+                <button class="category-card java" data-category="java">
+                    <div class="category-icon">☕</div>
+                    <h3>Java</h3>
+                    <p>10 words</p>
+                </button>
+            </div>
+
+            <div class="instructions">
+                <h3>📖 How to Play</h3>
+                <ul>
+                    <li>Choose a category to start playing</li>
+                    <li>Guess letters by clicking or typing on your keyboard</li>
+                    <li>You have 6 wrong guesses before game over</li>
+                    <li>Use the hint to help you guess!</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Game Screen -->
+    <div id="game-screen" class="screen">
+        <div class="game-container">
+            <!-- Header -->
+            <div class="game-header">
+                <button id="back-button" class="back-button">
+                    <span>🏠</span>
+                    <span>Menu</span>
+                </button>
+                <div class="game-title">
+                    <h1 id="game-header-title">Hangman</h1>
+                    <p id="category-label">Category: <span id="category-name"></span></p>
+                </div>
+                <div class="spacer"></div>
+            </div>
+
+            <!-- Game Area - Should be a 2-column grid -->
+                <div class="game-area">
+                    <!-- LEFT: Visual Display -->
+                    <div id="visual-container" class="visual-container">
+                    <div id="visual-display"></div>
+                </div>
+
+            <!-- RIGHT: Game Info (hints, word, counter) -->
+                <div class="game-info">
+                    <!-- Keyboard Tip -->
+                    <div class="keyboard-tip">
+                        ⌨️ <strong>Tip:</strong> Use your keyboard to guess letters!
+                    </div>
+
+                    <!-- Hint Box -->
+                    <div class="hint-box">
+                        <div class="hint-icon">💡</div>
+                        <div>
+                            <p class="hint-label">Hint:</p>
+                            <p id="hint-text" class="hint-text"></p>
+                        </div>
+                    </div>
+
+                    <!-- Word Display -->
+                    <div class="word-display">
+                        <p id="word-text" class="word-text"></p>
+                    </div>
+
+                    <!-- Wrong Guesses Counter -->
+                    <div class="wrong-guesses">
+                        Wrong Guesses: <span id="wrong-count" class="count">0 / 6</span>
+                    </div>
+                </div>
+            </div>
+           <!-- Game Status (Win/Loss screens) - BELOW grid -->
+            <div id="game-status" class="game-status hidden"></div>
+
+            <!-- Alphabet Buttons - BELOW everything -->
+            <div id="alphabet-buttons" class="alphabet-buttons"></div>
+        </div>
+    </div>
+</body>
+</html>

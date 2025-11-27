@@ -1,0 +1,212 @@
+{
+  "animals": [
+    {
+      "word": "ELEPHANT",
+      "hint": "Largest land mammal with a trunk"
+    },
+    {
+      "word": "GIRAFFE",
+      "hint": "Tallest animal with a long neck"
+    },
+    {
+      "word": "PENGUIN",
+      "hint": "Flightless bird that swims"
+    },
+    {
+      "word": "DOLPHIN",
+      "hint": "Intelligent marine mammal"
+    },
+    {
+      "word": "CHEETAH",
+      "hint": "Fastest land animal"
+    },
+    {
+      "word": "KANGAROO",
+      "hint": "Australian hopping marsupial"
+    },
+    {
+      "word": "BUTTERFLY",
+      "hint": "Insect with colorful wings"
+    },
+    {
+      "word": "OCTOPUS",
+      "hint": "Eight-armed sea creature"
+    },
+    {
+      "word": "CROCODILE",
+      "hint": "Large reptile living in water"
+    },
+    {
+      "word": "FLAMINGO",
+      "hint": "Pink bird that stands on one leg"
+    }
+  ],
+  "videogames": [
+    {
+      "word": "MINECRAFT",
+      "hint": "Block-building sandbox game"
+    },
+    {
+      "word": "FORTNITE",
+      "hint": "Popular battle royale game"
+    },
+    {
+      "word": "POKEMON",
+      "hint": "Catch and train creatures"
+    },
+    {
+      "word": "ZELDA",
+      "hint": "Adventure with Link and Triforce"
+    },
+    {
+      "word": "TETRIS",
+      "hint": "Falling block puzzle game"
+    },
+    {
+      "word": "MARIO",
+      "hint": "Italian plumber hero"
+    },
+    {
+      "word": "SONIC",
+      "hint": "Super fast blue hedgehog"
+    },
+    {
+      "word": "ROBLOX",
+      "hint": "Platform for user-created games"
+    },
+    {
+      "word": "OVERWATCH",
+      "hint": "Team-based hero shooter"
+    },
+    {
+      "word": "VALORANT",
+      "hint": "Tactical FPS by Riot Games"
+    }
+  ],
+  "javascript": [
+    {
+      "word": "FUNCTION",
+      "hint": "Reusable block of code"
+    },
+    {
+      "word": "VARIABLE",
+      "hint": "Container for storing values"
+    },
+    {
+      "word": "ARRAY",
+      "hint": "Ordered list of values"
+    },
+    {
+      "word": "OBJECT",
+      "hint": "Collection of key-value pairs"
+    },
+    {
+      "word": "PROMISE",
+      "hint": "Handles asynchronous operations"
+    },
+    {
+      "word": "CALLBACK",
+      "hint": "Function passed as argument"
+    },
+    {
+      "word": "CLOSURE",
+      "hint": "Function with access to outer scope"
+    },
+    {
+      "word": "BOOLEAN",
+      "hint": "True or false value"
+    },
+    {
+      "word": "STRING",
+      "hint": "Sequence of characters"
+    },
+    {
+      "word": "LOOP",
+      "hint": "Repeats code multiple times"
+    }
+  ],
+  "html": [
+    {
+      "word": "ELEMENT",
+      "hint": "Building block of HTML"
+    },
+    {
+      "word": "ATTRIBUTE",
+      "hint": "Additional info about an element"
+    },
+    {
+      "word": "PARAGRAPH",
+      "hint": "Block of text using <p> tag"
+    },
+    {
+      "word": "HYPERLINK",
+      "hint": "Clickable link to another page"
+    },
+    {
+      "word": "IMAGE",
+      "hint": "Visual content using <img> tag"
+    },
+    {
+      "word": "DIVISION",
+      "hint": "Container element using <div>"
+    },
+    {
+      "word": "FORM",
+      "hint": "Collects user input"
+    },
+    {
+      "word": "TABLE",
+      "hint": "Displays data in rows and columns"
+    },
+    {
+      "word": "HEADER",
+      "hint": "Top section of a page"
+    },
+    {
+      "word": "BUTTON",
+      "hint": "Clickable interactive element"
+    }
+  ],
+  "java": [
+    {
+      "word": "CLASS",
+      "hint": "Blueprint for creating objects"
+    },
+    {
+      "word": "METHOD",
+      "hint": "Function defined in a class"
+    },
+    {
+      "word": "INTERFACE",
+      "hint": "Contract for classes to implement"
+    },
+    {
+      "word": "INHERITANCE",
+      "hint": "Child class extends parent class"
+    },
+    {
+      "word": "EXCEPTION",
+      "hint": "Error during program execution"
+    },
+    {
+      "word": "CONSTRUCTOR",
+      "hint": "Initializes new objects"
+    },
+    {
+      "word": "STATIC",
+      "hint": "Belongs to class, not instance"
+    },
+    {
+      "word": "ABSTRACT",
+      "hint": "Cannot be instantiated directly"
+    },
+    {
+      "word": "PACKAGE",
+      "hint": "Organizes related classes"
+    },
+    {
+      "word": "THREAD",
+      "hint": "Separate path of execution"
+    }
+  ]
+}
