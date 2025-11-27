@@ -1,2 +1,4 @@
 # hangman-game
-Hangman final project for COMP2132
+Fun Hangman final project for COMP2132
+
+Might continue to experiment with!
